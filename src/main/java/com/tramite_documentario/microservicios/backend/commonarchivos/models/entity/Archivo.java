@@ -19,7 +19,7 @@ public class Archivo {
     private String descripcion;
 
     @Lob
-    @JsonIgnore
+    //@JsonIgnore
     private byte[] file;
 
     @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
